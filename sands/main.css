@@ -3,5 +3,5 @@
     left: 0;
     height: 100%;
     width: 6122px;
-    background: url('sand.jpg') bottom left ;
+    background: url('sand.jpg') bottom left repeat-x;
 }
