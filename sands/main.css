@@ -9,6 +9,7 @@
 
 @keyframes bg {
     from {
+        transform: translate(0)
     }
     to {
     }
