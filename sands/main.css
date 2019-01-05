@@ -6,3 +6,5 @@
     background: url('sand.jpg') bottom left repeat-x;
     animation: bg 90s linear infinite;
 }
+
+@keyframes bg {
