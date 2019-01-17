@@ -35,4 +35,10 @@
 
 .parallax__img--cloud4 {}
 
+.parallax__img--cloud5 {
+    bottom: -50%;
+    animation: cloudMove1 35s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
