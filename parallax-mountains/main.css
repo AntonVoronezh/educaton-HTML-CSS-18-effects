@@ -42,3 +42,11 @@
     animation-fill-mode: forwards;
 }
 
+@keyframes cloudSky {
+    from {
+        left: -10%;
+    }
+    to {
+        left: 115%;
+    }
+}
