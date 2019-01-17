@@ -26,5 +26,11 @@
     height: 130%;
 }
 
+.parallax__img--sky {
+    width: 20%;
+    bottom: 70%;
+    left: -5%;
+    animation: cloudSky 95s linear infinite;
+}
 
 
