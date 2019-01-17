@@ -17,4 +17,5 @@ moveParallax();
       });
     };
   
+    window.addEventListener("mousemove", moveLayers);
   }
