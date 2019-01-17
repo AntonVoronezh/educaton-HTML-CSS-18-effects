@@ -10,6 +10,8 @@ moveParallax();
   
       layers.forEach((layer, i) => {
         const divider = i / 50;
+        const positionX = initialX * divider;
+        const positionY = initialY * divider;
   
       });
     };
