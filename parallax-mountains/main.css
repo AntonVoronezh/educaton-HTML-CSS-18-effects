@@ -14,5 +14,12 @@
     height: 100%; // border: 1px solid #000000;
 }
 
+.parallax__img {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120%;
+}
 
 
