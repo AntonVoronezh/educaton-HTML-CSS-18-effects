@@ -20,6 +20,10 @@ function scrollParallax() {
         style.transform = transformString;
         style.webkitTransform = transformString;
       },
-
+      init: function(wScroll) {
+        this.move(img1, wScroll, -5);
+        this.move(img2, wScroll, 10);
+        this.move(img3, wScroll, 5);
+      }
     };
   }
