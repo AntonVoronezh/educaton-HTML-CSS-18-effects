@@ -15,7 +15,11 @@ function scrollParallax() {
         let strafe = windowScroll / -strafeAmount + "%";
         let transformString = `translate3d(0, ${strafe}, 0)`;
   
-
+        let style = block.style;
+  
+        style.transform = transformString;
+        style.webkitTransform = transformString;
+      },
 
     };
   }
