@@ -16,6 +16,7 @@
         img.onload = imageLoaded;
     }
 
+    console.log(images.length);
     
 
     function imageLoaded() {
