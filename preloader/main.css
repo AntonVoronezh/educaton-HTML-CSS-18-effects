@@ -39,4 +39,11 @@
     color: white;
 }
 
+.preloader__circle {
+    transform-origin: center;
+}
+
+.preloader__circle--one {
+    transform: rotate(-135deg);
+}
 
