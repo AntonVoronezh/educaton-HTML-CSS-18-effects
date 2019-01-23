@@ -32,6 +32,15 @@
     }
     
 
+    window.addEventListener("load", setStyle);
 
+    function setStyle() {
+
+        if (loadedImg >= imagesCount) {
+ 
+
+        }
+
+    }
 
 })();
