@@ -55,3 +55,12 @@
     transform: rotate(-115deg);
 }
 
+.none {
+    opacity: 0;
+    visibility: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
