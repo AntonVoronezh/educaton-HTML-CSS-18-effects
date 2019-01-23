@@ -17,6 +17,17 @@
     }
 
 
+    function imageLoaded() {
+        loadedImg++;
+
+        const curStrokeDashArray = Math.round(initStrokeDashOffset / imagesCount * loadedImg);
+        rounds.style.strokeDashoffset = initStrokeDashOffset - curStrokeDashArray;
+
+        const percent = Math.round(100 / imagesCount * loadedImg);
+        progress.innerHTML = percent + '%';
+
+        console.log(percent);
+        
 
     }
     
