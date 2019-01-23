@@ -42,7 +42,9 @@
                     preloader.classList.add('none');
                 }
             }, 2000);
-            
+            setTimeout(function () {
+                rounds.style.strokeDashoffset = initStrokeDashOffset;
+            }, 3000);
 
         }
 
