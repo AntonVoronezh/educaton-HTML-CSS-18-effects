@@ -37,7 +37,12 @@
     function setStyle() {
 
         if (loadedImg >= imagesCount) {
- 
+            setTimeout(function () {
+                if (!preloader.classList.contains('none')) {
+                    preloader.classList.add('none');
+                }
+            }, 2000);
+            
 
         }
 
