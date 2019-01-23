@@ -9,6 +9,12 @@
     const initStrokeDashOffset = 439;
     let loadedImg = 0;
 
+    for (let i = 0; i < images.length; i++) {
+        let img = images[i];
+        img = new Image();
+        img.src = images[i].src;
+        img.onload = imageLoaded;
+    }
 
 
 
